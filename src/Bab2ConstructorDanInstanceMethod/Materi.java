@@ -26,12 +26,12 @@ class Mobil {
         this.maxSpeed = maxSpeed;
     }
 
+    // Instance Method
     public void spek(String pemilik){
         System.out.println("Pemilik: " + pemilik);
         spek();
     }
 
-    // Instance Method
     public void spek(){
         System.out.println("Nama merk: " + this.merk + "\n" +
                 "Jenis transmisi: " + this.transmisi + "\n" +
