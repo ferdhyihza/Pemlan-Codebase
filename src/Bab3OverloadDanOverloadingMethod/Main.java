@@ -85,7 +85,7 @@ public class Main {
         Customer cust2 = new Customer("Sandi", "Batu", 54688);
         cust2.pesanTiket(10);
 
-        // Customer Member memesan tiket dengan apply Voucher (voucher akan useless), tetap diskon 20%
+        // Skenario 4: Customer Member memesan tiket dengan apply Voucher (voucher akan useless), tetap diskon 20%
         cust2.pesanTiket(10, "kjasfb78G");
 
     }
